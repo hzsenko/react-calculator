@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.scss';
+import InvestConfig from "./components/invest-config";
+import InvestInfo from "./components/invest-info";
 
 function App() {
   return (
@@ -7,6 +9,11 @@ function App() {
       <div className="app-title">
         Калькулятор
       </div>
+      <div className="app-calculator">
+        <InvestConfig/>
+        <InvestInfo/>
+      </div>
+
     </div>
   );
 }
