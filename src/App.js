@@ -15,7 +15,7 @@ class App extends React.Component {
   }
 
   calcInvestGain = (sum, time) => {
-    console.log(sum, time, 'kek');
+    console.log(sum, time);
     if (sum !== null && time !== null) {
       this.setState({
         investGain: (sum * time) / 100
