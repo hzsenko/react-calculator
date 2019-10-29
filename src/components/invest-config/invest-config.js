@@ -5,10 +5,17 @@ import InvestConfigTime from "../invest-config-time";
 class InvestConfig extends React.Component {
 
   render() {
+    const { investSum, handleChange, handleClick, activeName } = this.props;
+
     return (
       <div className="invest-config">
-        <InvestConfigSum/>
-        <InvestConfigTime/>
+        <InvestConfigSum
+          investSum={ investSum }
+          handleChange={ handleChange }/>
+        <InvestConfigTime
+          handleClick={ handleClick }
+          activeName={ activeName }
+        />
       </div>
     )
   }

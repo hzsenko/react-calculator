@@ -5,9 +5,13 @@ import InvestInfoCost from "../invest-info-cost";
 class InvestInfo extends React.Component {
 
   render() {
+    const { investSum, investTime, investGain } = this.props;
     return (
       <div className="invest-info">
-        <InvestInfoGrowth/>
+        <InvestInfoGrowth
+          investGain={ investGain }
+          investSum={ investSum }
+          investTime={ investTime }/>
         <InvestInfoCost/>
       </div>
     )
