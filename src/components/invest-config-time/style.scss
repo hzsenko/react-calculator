@@ -1,0 +1,32 @@
+.invest-config__time {
+  padding: 30px 10px;
+  background: #F7F7F7;
+  height: 50%;
+}
+
+.invest-time {
+
+  p {
+    padding-bottom: 30px;
+  }
+}
+
+.invest-time__buttons {
+
+  button {
+    border: 1px solid #B2BECA;
+    border-radius: 25px;
+    color: #477499;
+    background: #ffffff;
+    outline: 0;
+    margin-right: 15px;
+    padding: 5px 8px;
+    cursor: pointer;
+
+    &.active {
+      color: #ffffff;
+      background: #0093FF;
+      border-color: transparent;
+    }
+  }
+}

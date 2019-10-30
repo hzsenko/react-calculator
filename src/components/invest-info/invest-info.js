@@ -1,6 +1,7 @@
 import React from 'react';
 import InvestInfoGrowth from "../invest-info-growth";
 import InvestInfoCost from "../invest-info-cost";
+import './style.scss';
 
 class InvestInfo extends React.Component {
 
@@ -12,7 +13,9 @@ class InvestInfo extends React.Component {
           investGain={ investGain }
           investSum={ investSum }
           investTime={ investTime }/>
-        <InvestInfoCost/>
+        <InvestInfoCost
+          investGain={ investGain }
+          investSum={ investSum }/>
       </div>
     )
   }

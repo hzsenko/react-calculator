@@ -1,5 +1,6 @@
 import React from 'react';
 import InvestButton from "../invest-button";
+import './style.scss';
 
 class InvestConfigTime extends React.Component {
 

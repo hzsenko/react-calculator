@@ -1,0 +1,91 @@
+
+@media (max-width: 850px) {
+  div.invest-sum {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    label {
+      flex: 0 0 100%;
+      padding-bottom: 20px;
+    }
+  }
+
+  div.info-item {
+    flex: 0 0 100%;
+    padding-bottom: 35px;
+  }
+
+  div.info-wrapper {
+
+    &:after {
+      bottom: -25px;
+    }
+  }
+
+  div.info-growth {
+    padding-bottom: 0;
+  }
+
+  div.info-item:last-child, div.info-item:first-child {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  div.invest-time__buttons {
+    display: flex;
+    flex-wrap: wrap;
+
+    > button {
+      margin: 0 0 15px;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  div.invest-config {
+    flex: 0 0 100%;
+
+    &__sum, &__time {
+      height: auto;
+    }
+  }
+
+  div.invest-info__cost {
+    height: auto;
+    padding: 20px 10px;
+  }
+
+  div.invest-config__time {
+    padding: 20px 10px;
+
+    p {
+      padding-bottom: 20px;
+    }
+  }
+
+  div.invest-sum {
+    padding-bottom: 20px;
+  }
+
+  div.invest-time__buttons > button {
+    margin: 0 0 5px;
+
+  }
+
+  div.app-calculator {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  div.invest-info {
+    flex: 0 0 100%;
+  }
+
+  div.growth-wrapper {
+    padding-top: 20px;
+  }
+}
+
+
+

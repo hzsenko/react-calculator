@@ -2,9 +2,19 @@
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
+  font-size: 14px;
+  padding-bottom: 15px;
 }
 
 .app {
   margin: 0 auto;
   max-width: 830px;
+}
+
+.app-calculator {
+  border: 1px solid #B4C0CB;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 586px;
 }
